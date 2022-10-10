@@ -1,0 +1,14 @@
+.btn.close {
+  display: block;
+  margin: 0;
+  margin-left: auto;
+}
+
+.postId {
+  display: inline-block;
+  background-color: rgba(240, 46, 170, 0.5);
+  box-shadow: rgba(240, 46, 170, 0.2) -5px 5px,
+    rgba(240, 46, 170, 0.1) -10px 10px;
+  border: 1px dashed black;
+  padding: 1px;
+}

@@ -1,0 +1,112 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  background: #333333;
+  color: #fff;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.form-control {
+  display: block;
+  margin-top: 0.3rem;
+}
+
+.card {
+  padding: 1rem;
+  // border: #ccc 1px dotted;
+  margin: 0.7rem 0;
+}
+
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 1.2rem 0;
+}
+
+hr {
+  margin: 0.5rem 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.focusP {
+  font-size: 20px;
+}
+
+.focusP:active {
+  background-color: rgba(240, 46, 170, 0.4);
+}
+
+.long {
+  color: green;
+}
+
+.short {
+  color: blueviolet;
+}
+
+.different {
+  font-size: 32px;
+}
